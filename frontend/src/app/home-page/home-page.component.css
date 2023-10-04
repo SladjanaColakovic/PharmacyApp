@@ -59,10 +59,19 @@ button:hover {
 
 .sidenav {
     /* border: 1px solid #2196F3; */
-    position: -webkit-sticky;
+    /*position: -webkit-sticky;
     position: sticky;
-    margin-top: 65px;
+    margin-top: 65px;*/
     /* margin-left: 50px; */
+    position: fixed;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 43px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 5px; 
 }
 
 .sidenav button{
