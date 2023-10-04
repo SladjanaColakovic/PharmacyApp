@@ -1,0 +1,30 @@
+.sidenav {
+    height: 100%;
+    width: 90px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #7d90c7;
+    overflow-x: hidden;
+}
+
+.sidenav button {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #aaa8a8;
+    width: 100%;
+    background-color: transparent;
+    height: 80px;
+}
+
+.sidenav button:hover{
+    background-color: #677ab8;
+
+}
+label{
+    display: block;
+    color: white;
+    font-size: 13px;
+}
