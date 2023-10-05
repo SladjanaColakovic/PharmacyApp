@@ -1,0 +1,164 @@
+.main {
+    margin-left: 100px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.box {
+    margin: 40px;
+    padding: 25px;
+    border: 1px solid;
+    border-color: #d6b8b8;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+input{
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: horizontal;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+select{
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: horizontal;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+label {
+    font-size: 17px;
+    padding: 9px 9px 9px 0;
+    display: inline-block;
+}
+
+.row:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+
+.radio-inline:not(:first-child) {
+    margin-left: 20px;
+}
+
+button {
+    width: 130px;
+    background-color: #7d90c7;
+    border: none;
+    color: white;
+    padding: 11px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+}
+
+button:hover {
+    background-color: #677ab8;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1150px) and (min-width: 570px) {
+    .col-5 {
+        width: 100%;
+    }
+
+    .box {
+        margin: auto;
+        max-width: 650px;
+    }
+
+}
+
+
+@media screen and (max-width: 1450px) and (min-width: 700px) {
+    #col-2-delete{
+        width: 30%;
+    }
+
+    .col-1{
+        width: 20%
+    }
+
+}
+
+
+@media screen and (max-width: 700px) and (min-width: 570px) {
+    #col-2-delete{
+        width: 20%;
+    }
+
+    .col-1{
+        width: 20%
+    }
+}
+
+@media screen and (max-width: 1150px) and (min-width: 700px) {
+    #col-2-delete{
+        width: 20%;
+    }
+
+    .col-1{
+        width: 20%
+    }
+}
+
+
+@media screen and (max-width: 570px) {
+
+    .col-5 {
+        width: 100%;
+    }
+    #col-2-add{
+        width: 25%;
+    }
+    #col-4-sub{
+        width: 25%;
+    }
+    
+    #col-2-delete{
+        width: 30%;
+    }
+
+    .col-1{
+        width: 30%
+    }
+
+    #add-col-2{
+        width: 20%;
+    }
+
+    .box {
+        margin: auto;
+        max-width: 650px;
+    }
+}
