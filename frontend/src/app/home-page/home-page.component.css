@@ -63,17 +63,17 @@ button:hover {
     margin-top: 65px;*/
     /* margin-left: 50px; */
     position: fixed;
-    
+
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 43px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
-    padding-bottom: 5px; 
+    padding-bottom: 5px;
 }
 
-.sidenav button{
+.sidenav button {
     margin-left: auto;
     margin-right: auto;
     width: 200px;
@@ -81,6 +81,78 @@ button:hover {
     background-color: rgb(171, 169, 169);
 }
 
-.sidenav button:hover{
+.sidenav button:hover {
     background-color: rgb(149, 148, 148);
+}
+
+@media screen and (max-width: 1250px) and (min-width:950px) {
+
+    .col-3 {
+        width: 30%;
+    }
+
+    .col-9 {
+        width: 70%;
+    }
+
+    .col-5 {
+        width: 100%;
+    }
+
+    .col-7{
+        width: 100%;
+    }
+
+    #medicine-box {
+        margin-left: 10px;
+    }
+
+    h5 {
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+
+    .col-3 {
+        width: 100%;
+    }
+
+    .col-9 {
+        width: 100%;
+    }
+
+    .col-5 {
+        width: 100%;
+    }
+
+    .col-7{
+        width: 100%;
+    }
+
+    #medicine-box {
+        margin-left: 10px;
+    }
+
+    .sidenav {
+        position: relative;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .sidenav button{
+        display: inline;
+        width: auto;
+        margin: 3px;
+    }
+    h5 {
+        margin-top: 10px;
+    }
 }
